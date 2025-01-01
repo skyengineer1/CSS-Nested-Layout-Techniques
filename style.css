@@ -1,0 +1,131 @@
+div.oliver {
+    width: 500px;
+}
+
+img.profile-picture {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.profile-picture,
+.description,
+.button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.description {
+    margin-right: 140px;
+    margin-left: 20px;
+}
+
+p.profile-name {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+p.profile-nickname {
+    color: rgb(98, 98, 98);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p.profile-popularity {
+    color: rgb(98, 98, 98);
+    margin-top: 5px;
+}
+
+button.follow-button {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+div.social-profiles {
+    margin-top: 100px;
+    display: flex;
+}
+
+div.social-profile {
+    width: 200px;
+    height: 400px;
+    box-shadow: 1px 2px 3px 5px lightgrey;
+    margin-right: 15px;
+}
+
+img.profile-image {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+img.profileImage {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+div.profileAbout {
+    display: block;
+}
+
+p.mutual-friends {
+    width: 300px;
+    display: inline-block;
+}
+
+p.profileName {
+    margin-bottom: 0px;
+    vertical-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+div.profile-description {
+    margin-left: 10px;
+}
+
+div.profileAbout {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    vertical-align: left;
+}
+
+div.left {
+    margin-right: 10px;
+}
+
+div.right {
+    display: block;
+}
+
+p.mutual-friends {
+    color: rgb(98, 98, 98);
+    font-size: 18px;
+}
+
+button.addFriend {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+img.profile-image {
+    cursor: pointer;
+}
